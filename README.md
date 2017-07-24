@@ -22,13 +22,15 @@ train the loading of data with AJAX, jQuery event handlers and CSS positioning.
 
 	1. find (at least) 5 images licensed under creative common (https://unsplash.com/)
 	2. create a file `data.json` consisting of an array of object with the keys
-			- `author`
-			- `src`
-			- `link`
-			- `title`
+		- `author`
+		- `src`
+		- `link`
+		- `title`
 	3. load the `data.json` file using `$.getJSON()`
 	4. create a "pager" at the bottom of the page, when one of the pager item is clicked
 		- it changes the information (image, author name, author link and title) accordingly
 		- the clicked item is set to "active" (visually different from other pager items
 		  *Hint:* use `removeClass` and `addClass`
-	5. create a "Next" and "Back" button which when clicked act like clicking on either the next or the previous pager item
+  	6. when you load - or reload - the page, the first image must be displayed it with the right author, title and so)
+	   *Hint:* use `.trigger()` 
+	7. create a "Next" and "Back" button which when clicked act like clicking on either the next or the previous pager item
