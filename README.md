@@ -8,6 +8,7 @@ train the loading of data with AJAX, jQuery event handlers and CSS positioning.
 ## Steps
 
 1. create a GitHub repository
+
 	2. got to your GitHub profile
 	3. click the "Repositories"
 	4. in the field "Repository name" enter "simple-gallery" (exactly)
@@ -16,7 +17,9 @@ train the loading of data with AJAX, jQuery event handlers and CSS positioning.
 	7. make sure you are using the "SSH" URL (should start with "git@github"
 	8. open a terminal
 	9. enter `git clone <the SSH URL of your repository>` 
+	
 2. basics (see [simple-slider-step-1.jpg](simple-slider-step-1.jpg))
+
 	1. find (at least) 5 images licensed under creative common (https://unsplash.com/)
 	2. create a file `data.json` consisting of an array of object with the keys
 			- `author`
